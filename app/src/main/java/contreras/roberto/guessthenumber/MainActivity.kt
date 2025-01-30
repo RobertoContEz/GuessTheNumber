@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             num = Random.nextInt(minValue, maxValue)
             guessings.setText(num.toString())
             generate.visibility = View.INVISIBLE
-            generate.visibility = View.VISIBLE
+            guessed.visibility = View.VISIBLE
         }
 
         up.setOnClickListener {
